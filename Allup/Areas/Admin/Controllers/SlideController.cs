@@ -113,6 +113,8 @@ namespace Allup.Areas.Admin.Controllers
 				existed.Image = fileName;
 			}
 
+			existed.Button = slideVM.Button;
+			existed.ProductName = slideVM.ProductName;
 			existed.Title = slideVM.Title;
 			existed.Description = slideVM.Description;
 			existed.Subtitle = slideVM.Subtitle;
